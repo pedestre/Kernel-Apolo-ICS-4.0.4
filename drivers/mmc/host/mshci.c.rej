@@ -1,0 +1,11 @@
+--- drivers/mmc/host/mshci.c	2012-07-23 16:38:05.000000000 +0800
++++ drivers/mmc/host/mshci.c	2012-07-27 21:38:35.000000000 +0800
+@@ -2045,7 +2045,7 @@
+ 	mmc->ops = &mshci_ops;
+ 	mmc->f_min = 400000;
+ 	mmc->f_max = host->max_clk;
+-	mmc->caps |= MMC_CAP_SDIO_IRQ | MMC_CAP_ERASE;
++	mmc->caps |= MMC_CAP_SDIO_IRQ;// | MMC_CAP_ERASE;
+ 
+ 	mmc->caps |= MMC_CAP_4_BIT_DATA;
+ 

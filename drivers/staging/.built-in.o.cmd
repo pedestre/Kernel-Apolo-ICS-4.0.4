@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o drivers/staging/built-in.o drivers/staging/staging.o drivers/staging/tty/built-in.o drivers/staging/generic_serial/built-in.o drivers/staging/android/built-in.o 

@@ -1,0 +1,1 @@
+cmd_net/bluetooth_mgmt/rfcomm/rfcomm.o := /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o net/bluetooth_mgmt/rfcomm/rfcomm.o net/bluetooth_mgmt/rfcomm/core.o net/bluetooth_mgmt/rfcomm/sock.o net/bluetooth_mgmt/rfcomm/tty.o 

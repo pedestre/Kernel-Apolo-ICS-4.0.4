@@ -1,0 +1,1 @@
+cmd_drivers/samsung/fm_si4709/Si4709_driver.ko := /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL -r  -T /home/mrd/Descargas/Undervolting/package/MyKernel/scripts/module-common.lds --build-id  -o drivers/samsung/fm_si4709/Si4709_driver.ko drivers/samsung/fm_si4709/Si4709_driver.o drivers/samsung/fm_si4709/Si4709_driver.mod.o

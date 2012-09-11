@@ -1,0 +1,1 @@
+cmd_drivers/char/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o drivers/char/built-in.o drivers/char/mem.o drivers/char/random.o drivers/char/misc.o drivers/char/hw_random/built-in.o drivers/char/s3c_mem.o drivers/char/exynos_mem.o 

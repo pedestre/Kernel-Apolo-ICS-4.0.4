@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/bcmdhd/dhd.ko := /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL -r  -T /home/mrd/Descargas/Undervolting/package/MyKernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/bcmdhd/dhd.ko drivers/net/wireless/bcmdhd/dhd.o drivers/net/wireless/bcmdhd/dhd.mod.o

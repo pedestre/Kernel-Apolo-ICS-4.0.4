@@ -1,0 +1,1 @@
+cmd_drivers/samsung/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o drivers/samsung/built-in.o drivers/samsung/fm_si4709/built-in.o 

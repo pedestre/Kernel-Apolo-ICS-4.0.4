@@ -1,0 +1,1 @@
+cmd_drivers/video/console/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o drivers/video/console/built-in.o drivers/video/console/dummycon.o 

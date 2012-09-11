@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid.o := /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o drivers/hid/hid.o drivers/hid/hid-debug.o drivers/hid/hid-core.o drivers/hid/hid-input.o 

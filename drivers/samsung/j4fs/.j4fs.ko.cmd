@@ -1,0 +1,1 @@
+cmd_drivers/samsung/j4fs/j4fs.ko := /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL -r  -T /home/mrd/Descargas/Undervolting/package/MyKernel/scripts/module-common.lds --build-id  -o drivers/samsung/j4fs/j4fs.ko drivers/samsung/j4fs/j4fs.o drivers/samsung/j4fs/j4fs.mod.o

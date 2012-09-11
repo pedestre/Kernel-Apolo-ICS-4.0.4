@@ -1,0 +1,11 @@
+--- drivers/mmc/host/sdhci.c	2012-07-23 16:38:05.000000000 +0800
++++ drivers/mmc/host/sdhci.c	2012-07-27 21:38:54.000000000 +0800
+@@ -2611,7 +2611,7 @@
+ 	else
+ 		mmc->max_discard_to = (1 << 27) / host->timeout_clk;
+ 
+-	mmc->caps |= MMC_CAP_SDIO_IRQ | MMC_CAP_ERASE;
++	mmc->caps |= MMC_CAP_SDIO_IRQ;// | MMC_CAP_ERASE;
+ 
+ 	if (host->quirks & SDHCI_QUIRK_MULTIBLOCK_READ_ACMD12)
+ 		host->flags |= SDHCI_AUTO_CMD12;

@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/srp_ulp/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o sound/soc/samsung/srp_ulp/built-in.o sound/soc/samsung/srp_ulp/srp.o sound/soc/samsung/srp_ulp/srp_fw.o 
