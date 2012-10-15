@@ -275,6 +275,15 @@ config CPU_FREQ_GOV_SMARTASS2
 	  'smartassV2' - a "smart" governor
 	  If in doubt, say N.
 
+config CPU_FREQ_GOV_SLP
+	tristate "'slp' cpufreq policy governor"
+
+config CPU_FREQ_GOV_SLEEPY
+	tristate "'sleepy' cpufreq policy governor"
+
+config CPU_FREQ_GOV_HYPER
+	tristate "'hyper' cpufreq policy governor"
+
 config CPU_FREQ_DVFS_MONITOR
 	bool "dvfs monitor"
 	depends on CPU_FREQ
