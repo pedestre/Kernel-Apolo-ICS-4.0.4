@@ -1,1 +1,0 @@
-cmd_sound/core/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o sound/core/built-in.o sound/core/snd.o sound/core/snd-hwdep.o sound/core/snd-timer.o sound/core/snd-pcm.o sound/core/snd-page-alloc.o 

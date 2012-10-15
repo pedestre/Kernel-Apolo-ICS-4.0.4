@@ -1,1 +1,0 @@
-cmd_drivers/mfd/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o drivers/mfd/built-in.o drivers/mfd/mfd-core.o drivers/mfd/max8997.o drivers/mfd/max8997-irq.o 

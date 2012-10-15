@@ -1,1 +1,0 @@
-cmd_drivers/samsung/j4fs/j4fs.o := /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o drivers/samsung/j4fs/j4fs.o drivers/samsung/j4fs/j4fs_kernel.o drivers/samsung/j4fs/llid_kernel.o drivers/samsung/j4fs/fsd_common.o 

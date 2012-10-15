@@ -1,1 +1,0 @@
-cmd_drivers/usb/gadget/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o drivers/usb/gadget/built-in.o drivers/usb/gadget/s3c_udc_otg.o drivers/usb/gadget/g_android.o drivers/usb/gadget/multi_config.o 

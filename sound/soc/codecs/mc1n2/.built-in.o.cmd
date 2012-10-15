@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/mc1n2/built-in.o :=  /home/kernel/gcc-linaro-arm-linux-gnueabi-2012.03-20120326_linux/bin/arm-linux-gnueabi-ld -EL    -r -o sound/soc/codecs/mc1n2/built-in.o sound/soc/codecs/mc1n2/snd-soc-mc1n2.o 
