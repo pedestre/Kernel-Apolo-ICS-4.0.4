@@ -68,8 +68,8 @@ mali_dvfs_staycount_table mali_dvfs_staycount[MALI_DVFS_STEPS]={
 
 /*dvfs threshold*/
 mali_dvfs_threshold_table mali_dvfs_threshold[MALI_DVFS_STEPS]={
-	/*step 0*/{((int)((255*0)/100)), ((int)((255*65)/100))}, //0-85
-	/*step 1*/{((int)((255*25)/100)), ((int)((255*100)/100))} }; //75-100
+	/*step 0*/{((int)((255*0)/100)), ((int)((255*85)/100))}, //0-85
+	/*step 1*/{((int)((255*45)/100)), ((int)((255*100)/100))} }; //75-100
 
 /*dvfs status*/
 mali_dvfs_currentstatus maliDvfsStatus;
@@ -77,8 +77,8 @@ int mali_dvfs_control=0;
 
 /*dvfs table*/
 mali_dvfs_table mali_dvfs[MALI_DVFS_STEPS]={
-	/*step 0*/{160  ,1000000    , 850000},
-	/*step 1*/{267  ,1000000    , 850000} };
+	/*step 0*/{160  ,1000000    , 950000},
+	/*step 1*/{267  ,1000000    ,1000000} };
 
 #ifdef EXYNOS4_ASV_ENABLED
 
@@ -89,8 +89,8 @@ static unsigned int asv_3d_volt_5_table[ASV_5_LEVEL][MALI_DVFS_STEPS] = {
 	/* L3(160MHz), L2(266MHz) */
 	{1000000, 1100000},	/* S */
 	{1000000, 1100000},	/* A */
-	{ 950000,  900000},	/* B */
-	{ 950000,  900000},	/* C */
+	{ 950000, 1000000},	/* B */
+	{ 950000, 1000000},	/* C */
 	{ 950000,  950000},	/* D */
 };
 
@@ -99,10 +99,10 @@ static unsigned int asv_3d_volt_8_table[ASV_8_LEVEL][MALI_DVFS_STEPS] = {
 	{1000000, 1100000},	/* SS */
 	{1000000, 1100000},	/* A1 */
 	{1000000, 1100000},	/* A2 */
-	{ 950000,  900000},	/* B1 */
-	{ 950000,  900000},	/* B2 */
-	{ 950000,  900000},	/* C1 */
-	{ 950000,  900000},	/* C2 */
+	{ 950000, 1000000},	/* B1 */
+	{ 950000, 1000000},	/* B2 */
+	{ 950000, 1000000},	/* C1 */
+	{ 950000, 1000000},	/* C2 */
 	{ 950000,  950000},	/* D1 */
 };
 #endif

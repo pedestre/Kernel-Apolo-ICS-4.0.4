@@ -139,7 +139,7 @@ static struct dbs_tuners {
 	.down_differential = DEF_FREQUENCY_DOWN_DIFFERENTIAL,
 	.ignore_nice = 0,
 	.powersave_bias = 0,
-	.freq_step = 100,
+	.freq_step = 50, //100,
 };
 
 static inline cputime64_t get_cpu_idle_time_jiffy(unsigned int cpu,
